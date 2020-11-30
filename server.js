@@ -5,6 +5,7 @@ import Messages from "./dbMessages.js";
 import Pusher from "pusher";
 import cors from "cors";
 import dotenv from "dotenv";
+import bodyParser from "body-parser";
 dotenv.config();
 
 //app config
@@ -21,6 +22,7 @@ const pusher = new Pusher({
 
 //middleware
 app.use(express.json());
+app.use(bodyParser.json());
 app.use(cors());
 
 // app.use((req, res, next) => {
@@ -29,7 +31,7 @@ app.use(cors());
 //   next();
 // });
 console.log(process.env.DB_USER);
-//DB config
+//DB config 
 const connection_url = `mongodb://${process.env.DB_USER}:${process.env.DB_PASS}@cluster0-shard-00-00.dgdfa.mongodb.net:27017,cluster0-shard-00-01.dgdfa.mongodb.net:27017,cluster0-shard-00-02.dgdfa.mongodb.net:27017/whatsappdb?ssl=true&replicaSet=atlas-g4jngz-shard-0&authSource=admin&retryWrites=true&w=majority`;
 mongoose.connect(connection_url, {
   useCreateIndex: true,
