@@ -23,8 +23,8 @@ A MEARN stack WhatsApp team Project. <br/>
   <br/>
   <br/>
 
-> ### [Resume]('https://drive.google.com/file/d/1d6OfaYXPL4u8YPYlBqk1Iay-Vf7Bh8jJ/view?usp=sharing')
+> ### [Resume](https://drive.google.com/file/d/1d6OfaYXPL4u8YPYlBqk1Iay-Vf7Bh8jJ/view?usp=sharing "Resume")
 
 <br/>
 
-> ### [Linkedin]("https://www.linkedin.com/in/chistyhimel/")
+> ### [Linkedin](https://www.linkedin.com/in/chistyhimel/ "Linkedin")
